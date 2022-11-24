@@ -1,0 +1,139 @@
+body{
+    background-image: url(./images/cool-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #344D67;
+    margin: 0;
+}
+
+.underline{
+    background-color: #009EFF;
+    width: 100px;
+    height: 3px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f9fcf7;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    color: #344D67;
+    padding: 20px;
+    transition-duration: 0.5s;
+
+}
+
+.review:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+#person-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 8px -3px 0 #009EFF;
+}
+
+#Author{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+#job{
+    margin-top: 0;
+    font-weight: bolder;
+    color: #009EFF;
+}
+
+#info{
+    text-align: center;
+    margin-top: 0;
+    height: 70px;
+    color: #5F6F94;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+.prev-btn, .next-btn{
+    border: none;
+    background: none;
+    margin-bottom: 10px;
+}
+.button-left{
+    background-image: url(./images/next-right.png);
+    transform: rotate(180deg);
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+}
+
+.button-right{
+    background-image: url(./images/next-right.png);
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+}
+.prev-btn, .next-btn:hover{
+    cursor: pointer;
+}
+
+.random-btn{
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    color: #009EFF;
+    font-weight: bolder;
+    height: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: 0.7s;
+}
+
+.border-btn{
+    padding: 2px;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #009eff, royalblue);
+    
+}
+
+.random-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #009eff, royalblue);
+    color: white;
+}
+
+
+
